@@ -4,6 +4,8 @@ import Formaction from './Components/Formaction'
 import ControlledField from './Components/ControlledField'
 import Uncontrolled from './Components/Uncontrolled'
 import HookForm from './Components/HookForm'
+import ProductManager from './Components/ProductManagement/ProductManager'
+import Family from './Components/FamilyTree/Family'
 
 
 function App() {
@@ -11,13 +13,14 @@ function App() {
 
   return (
     <>
-    <h2>Explore Form</h2>
+    
       {/* <SimpleForm></SimpleForm> */}
       {/* <Formaction></Formaction> */}
       {/* <ControlledField></ControlledField> */}
       {/* <Uncontrolled></Uncontrolled> */}
-      <HookForm></HookForm>
-
+      {/* <HookForm></HookForm> */}
+      {/* <ProductManager></ProductManager> */}
+      <Family></Family>
     </>
   )
 }

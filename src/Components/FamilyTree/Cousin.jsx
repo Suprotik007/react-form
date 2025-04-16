@@ -1,5 +1,6 @@
 import React from 'react';
 import MySelf from './MySelf';
+import Friend from './Friend';
 
 const Cousin = ({name,asset}) => {
     return (
@@ -10,6 +11,9 @@ const Cousin = ({name,asset}) => {
             }
             {
                 name==='Millie' &&<MySelf asset={asset}></MySelf>
+            }
+            {
+                name==='Bob' &&<Friend></Friend>
             }
 
         </div>
